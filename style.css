@@ -1,6 +1,6 @@
 :root {
     --color1:#F16528;
-    --color2:#333;;
+    --color2:#333;
     --color3:#2DABDE;
     --color4:#FFD93E;
 }
@@ -85,7 +85,7 @@ main {
 }
 
 .section1 img {
-    width: 100%;
+    width: 400px;
     padding: 10% 0 0 0;
 }
 
@@ -110,4 +110,9 @@ footer a {
     text-decoration: none;
 }
 
-@media 790
+@media (max-width:800px) {
+    .section1 img {
+        max-width: 100%;
+    }
+}
+
